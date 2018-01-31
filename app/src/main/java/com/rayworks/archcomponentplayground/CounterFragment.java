@@ -47,7 +47,7 @@ public class CounterFragment extends Fragment {
                     record = new Record();
                 }
 
-                if (Utils.isRandomOdd())
+                if (Utils.isRandomEven())
                     record.scoreTeamB += 1;
                 else
                     record.scoreTeamA += 1;

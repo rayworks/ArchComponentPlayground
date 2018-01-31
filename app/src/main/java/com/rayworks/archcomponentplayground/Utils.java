@@ -10,7 +10,7 @@ import java.util.Random;
 public final class Utils {
     private static Random random = new Random();
 
-    public static boolean isRandomOdd() {
+    public static boolean isRandomEven() {
         return random.nextInt() % 2 == 0;
     }
 

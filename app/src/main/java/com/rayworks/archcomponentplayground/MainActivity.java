@@ -47,7 +47,7 @@ public class MainActivity extends TrackableActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (Utils.isRandomOdd()) {
+                if (Utils.isRandomEven()) {
                     viewModel.scoreTeamB += 1;
                 } else {
                     viewModel.scoreTeamA += 1;
