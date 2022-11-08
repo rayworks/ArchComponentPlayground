@@ -1,10 +1,10 @@
 package com.rayworks.archcomponentplayground;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class CounterActivity extends TrackableActivity {
 
@@ -27,7 +27,7 @@ public class CounterActivity extends TrackableActivity {
                     .add(R.id.fragment_parent, fragment, PLACE_HOLDER)
                     .commit();
         } else {
-            System.out.println(">>> Fragment found " + fragment.toString());
+            System.out.println(">>> Fragment found " + fragment);
         }
     }
 
